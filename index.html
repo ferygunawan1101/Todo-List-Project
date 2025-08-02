@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List Project</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Daftar Yang Harus Dikerjakan</h1>
+    <p>A simple todo list project prototype</p>
+
+    <div class="todo-input">
+      <input type="text" placeholder="Name todo" class="js-todo-input" onkeydown="pressEnter()" />
+
+      <input type="date" class="js-date-input" />
+
+      <button onclick="clickAdd()" class="add-button">Add</button>
+    </div>
+
+    <div class="js-output-html output-html"></div>
+
+    <div class="copyright">Fery Gunawan &#169;2025</div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
